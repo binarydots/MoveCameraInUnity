@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
 
 	private int score;
 
+	//  Initial calculations
 	void Start()
 	{
 		rb = GetComponent<Rigidbody> ();
